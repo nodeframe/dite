@@ -1,0 +1,11 @@
+{
+  "name": "dite",
+  "version": "1.0.0",
+  "description": "Continuous Deployment Lite Weight",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

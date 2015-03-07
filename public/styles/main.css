@@ -1,0 +1,63 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+li.deployment-list{
+	list-style-type: none;
+	margin: 10px 0px;
+	background: #f2f2f2;
+	padding:10px;
+}
+ul.deployment-list-box{
+	padding:0px;
+}
+.deployment-tc{
+	display: table-cell;
+}
+.deployment-tb{
+	display: table;
+}
+.deployment-tc__icon img{
+	width: 100px;
+	height: 100px;
+}
+.deployment-tc__info{
+	padding-left: 15px;
+	vertical-align: top;
+	position:relative;
+}
+.header-label{
+	color:#333333;
+}
+ul.deployment-tc__info__box{
+	padding-top:8px;
+	padding-left: 10px;
+	list-style-type: none;
+}
+
+li.deployment-tc__info__list{
+	list-style-type: none;
+}
+li.deployment-tc__info__list h3{
+	margin-top: 3px;
+	margin-bottom: 5px;
+}
+.deployment-tc__info__list.footer{
+	margin-left: 10px;
+}
+.date-label{
+	font-size: 18px;
+	color:#333333;
+}
+.foot-label{
+	font-size: 12px;
+	color:#999999;
+}
+.foot-label .bold{
+	font-weight: bold;
+}
+.status{
+	font-weight: bold;
+}
+.status-active{
+	color:#80BF24;
+}
