@@ -4,8 +4,41 @@
   "description": "Continuous Deployment Lite Weight",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.3.0",
+    "body-parser": "^1.12.0",
+    "color": "^0.7.3",
+    "colors": "^1.0.3",
+    "commander": "^2.6.0",
+    "console.table": "^0.4.0",
+    "cookie-parser": "^1.3.4",
+    "debug": "^2.1.2",
+    "express": "^4.12.0",
+    "git": "^0.1.5",
+    "inquirer": "^0.8.0",
+    "lodash": "^3.3.1",
+    "mongoose": "^3.8.24",
+    "morgan": "^1.5.1",
+    "path": "^0.11.14",
+    "q": "^1.2.0",
+    "readline": "^0.0.7",
+    "serve-favicon": "^2.2.0",
+    "swig": "^1.4.2",
+    "terminal-menu": "^2.1.1",
+    "tungus": "^0.0.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodeframe/dite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodeframe/dite/issues"
+  },
+  "homepage": "https://github.com/nodeframe/dite"
 }
