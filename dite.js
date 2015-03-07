@@ -122,7 +122,7 @@ program.command('watch')
             return deferred.promise;
         }
 
-        nodegit.Repository.open(path.resolve(__dirname, "../.git"))
+        nodegit.Repository.open(path.resolve(CWD, "./.git"))
             .then(function(repo) {
                 return makeRepositoryList(repo);
             }).done(function(remoteRepos) {
